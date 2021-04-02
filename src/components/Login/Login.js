@@ -8,6 +8,7 @@ import './Login.css'
 
 const Login = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
+    setLoggedInUser(loggedInUser);
     const history = useHistory();
     const location = useLocation();
     const { from } = location.state || { from: { pathname: "/" } };
