@@ -18,7 +18,7 @@ const Orders = () => {
         })
             .then(res => res.json())
             .then(data => setOrders(data));
-    }, [])
+    }, loggedInUser.email)
 
     return (
         <div className="container table">
