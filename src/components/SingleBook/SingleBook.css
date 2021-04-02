@@ -1,0 +1,9 @@
+.card{
+    margin: 2% 2%;
+}
+.card img{
+    padding-top: 5px;
+    width: 90%;
+    height: 250px;
+    align-self: center;
+}
