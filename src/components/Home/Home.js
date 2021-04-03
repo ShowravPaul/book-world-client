@@ -5,7 +5,7 @@ const Home = () => {
     const [books, setBooks] = useState([]);
 
     useEffect(() => {
-        fetch('https://book-world-server.herokuapp.com/books')
+        fetch('https://book-world-server-1.herokuapp.com/books')
             .then(response => response.json())
             .then(data => setBooks(data))
     }, [])
