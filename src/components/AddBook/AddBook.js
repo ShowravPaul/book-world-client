@@ -16,7 +16,7 @@ const AddBook = () => {
             price: data.price
         };
 
-        const url = `https://book-world-server.herokuapp.com/addBook`;
+        const url = `https://book-world-server-1.herokuapp.com/addBook`;
 
         fetch(url, {
             method: 'POST',
