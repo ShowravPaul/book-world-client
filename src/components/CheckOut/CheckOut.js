@@ -13,7 +13,7 @@ const CheckOut = () => {
     const saveOrderData = () => {
         const orderData = { ...loggedInUser, ...takenBook, data: new Date() };
         // console.log(orderData);
-        fetch('http://localhost:5000/addOrder', {
+        fetch('https://book-world-server.herokuapp.com/addOrder', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(orderData)
