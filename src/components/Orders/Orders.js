@@ -9,7 +9,7 @@ const Orders = () => {
     setLoggedInUser(loggedInUser); // extra line, just for using it
 
     useEffect(() => {
-        fetch('https://book-world-server.herokuapp.com/orders?email=' + loggedInUser.email, {
+        fetch('https://book-world-server-1.herokuapp.com/orders?email=' + loggedInUser.email, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
