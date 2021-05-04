@@ -1,5 +1,5 @@
 # Book-World
-live site: https://606838a3407c813393ea1c2b--unruffled-shockley-7f2f7b.netlify.app/
+live site: https://book-world.netlify.app/
 
 Hello! This is a website of an online book shop. Html, Css, Bootstrap and React library have been used to develop the client side of this site. MongoDB cloud server has been used as backend database.
 
